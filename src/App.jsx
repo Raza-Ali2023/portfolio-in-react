@@ -4,6 +4,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import MyCerts from './components/myCerts';
 
 function App() {
   const [activeTab, setActiveTab] = useState('skills');
@@ -16,6 +17,7 @@ function App() {
     <div>
       <Header openTab={openTab} />
       <About openTab={openTab} />
+      <MyCerts />
       <Services />
       <Portfolio />
       <Contact />

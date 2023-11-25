@@ -502,3 +502,32 @@ nav .fas{
   margin-top: -40px;
   display: block;
 }
+
+/* certs */
+
+/* Services.css */
+
+.certificates-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  flex-wrap: wrap; 
+  margin-top: 40px;
+}
+
+.certificate {
+  width: 370px;
+  margin: 10px; 
+}
+
+.certificate-image {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 928px) {
+  .certificate {
+    width: 80%;
+    margin: 10px; 
+  }
+}
+
